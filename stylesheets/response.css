@@ -7,14 +7,14 @@
     height: 58px;
     position: fixed;
     top: 0;
-    width: 108vw;
+    width: 110vw;
 }
 
 header::before {
     content: "";
-    background: url('img.jpg') no-repeat center center/cover;
+    /* background: url('img.jpg') no-repeat center center/cover; */
     position: absolute;
-    width: 108vw;
+    width: 110vw;
     height: 85%;
     top: 0;
     left: 0;
@@ -345,7 +345,7 @@ hr{
     line-height: 24px;
     color: #737373;
     height: 125px;
-    width: 108vw;
+    width: 110vw;
 }
 
 #foo .container{
