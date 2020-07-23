@@ -50,7 +50,7 @@ a:hover{
     color: tomato;
 }
 
-.container{
+#slider .container{
     margin: 150px 325px 75px 137px;
 
 }
@@ -100,7 +100,7 @@ a:hover{
 }
 
 .about{
-    margin-top: 200px;
+    margin-top: 300px;
     display: flex;
     flex-direction: row;
     /* border: 1px solid black; */
@@ -110,13 +110,13 @@ a:hover{
 
 .about .container{
     /* border: 2px solid black; */
-    height: 500px;
-    max-width: 100vw;
+    height: 600px;
+    width: 100vw;
     padding: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin-right: 30px;
+    justify-content: center;
+    align-items: center;
 }
 
 .about .img{
@@ -357,6 +357,7 @@ a:hover{
     padding: 10px 25px;
     font-size: 15px;
     cursor: pointer;
+    border: none;
 }
 
 .contact .frm .btn-sub:hover{
