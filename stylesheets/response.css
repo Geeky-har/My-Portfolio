@@ -7,7 +7,7 @@
     height: 58px;
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 100vw;
 }
 
 /* .navigation {
@@ -61,7 +61,7 @@
 #navbar .fa{
     display: block;
     color: #fff;
-    margin: 10px 45px;
+    margin: 10px 20px;
     cursor: pointer;
 }
 
@@ -99,7 +99,7 @@
 
 /* styling for about section */
 .about {
-    margin-top: 170px;
+    margin-top: 270px;
     display: flex;
     flex-direction: row;
     /* border: 1px solid black; */
@@ -156,7 +156,7 @@
     margin-left: 0px;
     /* border: 2px solid black; */
     height: 1800px;
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -203,6 +203,13 @@ hr{
     margin-left: -30px;
 }
 
+#js-box{
+    display: none;
+}
+
+.fa-node{
+    margin-left: -20px;
+}
 
 /* styling for projects */
 .projects {
@@ -271,8 +278,8 @@ hr{
 /* styling for contact section */
 .contact {
     /* border: 2px solid #000000; */
-    height: 634px;
-    width: 98%;
+    height: 650px;
+    width: 100vw;
     padding: 10px;
     display: flex;
     flex-direction: row;
