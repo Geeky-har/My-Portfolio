@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1180px)" href="stylesheets/response.css">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300i,400,400i,500,600,700,800,900" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d14fcf947d.js" crossorigin="anonymous"></script>
+    <title>My portfolio</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-close" onclick="hidemenu()"></i>
+                <ul class="navigation">
+                    <li class="item"><a href="#contact">Contact Me</a></li>
+                    <li class="item"><a href="#projects">My Projects</a></li>
+                    <li class="item"><a href="#skill">My Skills</a></li>
+                    <li class="item"><a href="#about">About Me</a></li>
+                    <li class="item"><a href="#slider">Welcome</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+    </header>
+    <section id="slider">
+        <div class="container">
+            <h1>Hello, My Name is Harsh Negi</h1>
+            <p>
+                A Full Stack Web developer and Python Developer!!
+            </p>
+            <button class="btn" id="btn1"><i class="fas fa-envelope"></i>Contact Me</button>
+            <button class="btn"><i class="fas fa-briefcase"></i>View Work</button>
+        </div>
+
+    </section>
+
+    <section id="about" class="about">
+
+        <div class="container">
+            <div class="img">
+                <img src="brooo.jpg" alt="harsh" height="500px" width="400px">
+
+            </div>
+
+            <div class="content">
+                <h1>ABOUT ME</h1>
+                <p>Hello I am Harsh Negi a Full stack Web developer and Python developer from New Delhi, India.</p>
+
+                <p>I have started designing and coding when I was at 16 years of age. Since that age I have been exposed
+                    to some exquisite projects which constantly increased my aptitude towards designing and
+                    coding</p>
+
+                <p>When I completed my high school I have already decided to choose coding as the sole aim of my life
+                    and decided to dedicate my life towards the study of designing and development.</p>
+                <button class="know">Know More</button><br>
+                <i class="fab fa-facebook-f fa-2x" style="color: blue;"></i>
+                <i class="fab fa-github fa-2x"></i>
+                <i class="fab fa-reddit fa-2x" style="color: orangered;"></i>
+                <i class="fab fa-linkedin fa-2x" style="color: #0e76a8 ;"></i>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <section id="skill" class="skill">
+        <div class="container">
+            <div class="head">
+                <h1>SOME OF MY WEB RELATED SKILLS</h1>
+            </div>
+            <div class="skills">
+                <div class="box"><i class="fab fa-html5 fa-8x" style="color:orangered;"></i></div>
+                <div class="box"><i class="fab fa-css3-alt fa-8x" style="color:blue;"></i></div>
+                <div class="box"><i class="fab fa-bootstrap fa-8x" style="color:rgb(105, 11, 105);"></i></div>
+                <div class="box"><i class="fab fa-node fa-8x" style="color:green;"></i></div>
+                <div class="box"><i class="fab fa-js-square fa-8x" style="color:yellow;" id="esp"></i></div>
+            </div>
+
+            <div class="head2">
+                <h1>SOME OF MY PROGRAMMING RELATED SKILLS</h1>
+            </div>
+            <div class="skills">
+                <div class="box"><img src="py.jpg" alt="Python" height="138px" width="130px"></i></div>
+                <div class="box"><img src="java.png" alt="java" height="138px" width="110px"></i></div>
+                <div class="box"><img src="cpp.png" alt="cpp" height="138" id="cpp"></div>
+                <div class="box"><img src="c.png" alt="c" height="138px" width="130px"></i></div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="head">
+            <h1>MY PROJECTS</h1>
+        </div>
+        <div class="container" style="margin-left: 0px; margin-right: 25px; margin-top: 10px;">
+            <div class="card">
+                <img src="chat.jpeg" alt="Avatar" style="width:100%; height:170px;">
+                <div class="info">
+                    <h2><b>ML based ChatBot</b></h2>
+                    <p>This project was undertaken by our team at a hackathon in which we bagged 2nd runner up position.
+                        This was made using Flask and Python Machine Learning</p>
+                    <button class="btn" id="btn-pro1">Know More<i class="fas fa-angle-double-right"></i></button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="card1.jpg" alt="Travel" style="width:100%; height: 180px;">
+                <div class="info">
+                    <h2><b>Tour and travel Website</b></h2>
+                    <p>This tour and travel website named Gummakad.com was one of my personal project. This is a
+                        completely responsive webite made on Bootstrap 5.</p>
+                    <button class="btn" id="btn-pro2">Know More<i class="fas fa-angle-double-right"></i></button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="card2.jpg" alt="Gym" style="width:100%; height: 180px;">
+                <div class="info">
+                    <h2><b>Gym Website</b></h2>
+                    <p>This was one of my personal project for a local gym. This website was completely based on HTML
+                        and CSS. Node.js is used as a backend for this website</p>
+                    <button class="btn" id="btn-pro3">Know More<i class="fas fa-angle-double-right"></i></button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+
+        <div class="det">
+            <h2>Contact Information</h2>
+            <ul>
+                <li><i class="fas fa-phone-square fa-2x" style="color:#42bc7f; margin-right: 10px;"></i><span
+                        class="txt">7836-95-2729</li>
+                </span>
+                <li><i class="fas fa-map-marker-alt fa-2x" style="color:#42bc7f; margin-right: 10px;"></i><span
+                        class="txt">INA, New Delhi
+                        110023</li></span>
+                <li><i class="fas fa-envelope fa-2x" style="color:#42bc7f; margin-right: 10px;"></i><span
+                        class="txt">Harshnegi6477@gmail.com</li></span>
+                <li><i class="fas fa-university fa-2x" style="color:#42bc7f; margin-right: 10px;"></i><span
+                        class="txt">NDIIT, New Delhi,
+                        India</li></span>
+            </ul>
+        </div>
+
+        <div class="form">
+            <form action="#" class="frm">
+                <input type="text" name="name" placeholder="Enter your name here">
+                <input type="text" name="email" placeholder="Enter your email here">
+                <textarea name="msg" cols="30" rows="10" placeholder="Enter message"></textarea>
+                <button type="submit" class="btn-sub">Submit</button>
+            </form>
+
+        </div>
+        </div>
+    </section>
+
+    <footer id="foo">
+        <div class="container">
+            <div class="content" id="aboutme">
+                <h6>ABOUT ME</h6>
+                <p>I am Harsh negi a full Stack Web Developer and Python Developer. Its been 5 Years since I have
+                    started my journey as a coder. I have already developed a keen interest on Web development because I
+                    am quite comfortable with it. At the same time my programming skills are also quite well and I ahve
+                    already developed some interesting projects showcasing my programming interest. To know more about
+                    me and my projects visit <a
+                        href="www.https://github.com/Geeky-har">www.https://github.com/Geeky-har</a> </p>
+            </div>
+            <div class="content" id="categories">
+                <h6>SKILLS</h6>
+                <ul>
+                    <li>C++</li>
+                    <li>Javascript</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>Node.js</li>
+
+                </ul>
+            </div>
+            <div class="content" id="links">
+                <h6>QUICK LINKS</h6>
+                <ul>
+                    <li><a href="#slider">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skill">My Skills</a></li>
+                    <li><a href="#projects">My Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr width="90%">
+        <div class="copyright">
+            <div class="content">
+                <p>Copyright &copy; 2020 All Rights Reserved by Harsh Negi</p>
+            </div>
+
+            <div class="icons">
+                <ul class="social-icons">
+                    <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        var show = document.getElementById("nav-links");
+
+        function showmenu(){
+            show.style.right = "0";
+        }
+
+        function hidemenu(){
+            show.style.right = "-290px";
+        }
+    </script>
+</body>
+
+</html>
