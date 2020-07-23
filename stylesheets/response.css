@@ -7,7 +7,20 @@
     height: 58px;
     position: fixed;
     top: 0;
-    width: 100vw;
+    width: 108vw;
+}
+
+header::before {
+    content: "";
+    background: url('img.jpg') no-repeat center center/cover;
+    position: absolute;
+    width: 108vw;
+    height: 85%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.6;
 }
 
 /* .navigation {
@@ -332,6 +345,7 @@ hr{
     line-height: 24px;
     color: #737373;
     height: 125px;
+    width: 108vw;
 }
 
 #foo .container{
